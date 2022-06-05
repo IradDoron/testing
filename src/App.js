@@ -21,7 +21,7 @@ function App() {
           <Route path="sub2" element={<h3>Sub 2</h3>} />
         </Route>
         <Route path="/about" element={<About />}>
-          <Route path=":id/:name" component={<UserTemplate />} />
+          <Route path=":id/:name" element={<UserTemplate />} />
         </Route>
         <Route path="/contact" element={<Contact />} />
       </Routes>
